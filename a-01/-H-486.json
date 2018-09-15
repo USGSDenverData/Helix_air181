@@ -1,0 +1,95 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 486,
+    "analysis_type": "air",
+    "analyst_name": "lemorgan",
+    "collection_version": "1.0:1.0",
+    "comment": "",
+    "commit": "f0be8bca3d5b1de5a9a426caeef6d12faae31a1d",
+    "conditionals": null,
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "BABACut",
+    "extraction": "helix_air_first_stage_2x.py",
+    "identifier": "a-01-H",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "A",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Helix",
+    "material": "Gas",
+    "measurement": "helix_air.py",
+    "post_equilibration": "helix_pump_prep.py",
+    "post_measurement": "helix_pump_ms.py",
+    "principal_investigator": "",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Helix_air181",
+    "sample": "air",
+    "source": {
+        "emission": 605.698,
+        "trap": 168.833
+    },
+    "spec_sha": "e022b480685cfe438fbd49c078e4038863d0eaf8",
+    "timestamp": "2018-09-14T18:42:27.440721",
+    "tripped_conditional": null,
+    "username": "lemorgan",
+    "uuid": "94524738-1f01-450b-b962-9039085ec9a0",
+    "whiff_result": null
+}
